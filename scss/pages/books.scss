@@ -1,0 +1,86 @@
+.containr {
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+  /* height: 500vh; Adjust the height of the container as needed */
+  /* margin-top: 80px; */
+  
+}
+
+.image {
+  /* text-align: center; 
+  vertical-align: bottom;
+  
+  margin-top: 50px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+table {
+  border-collapse: collapse;
+  width: 8%; /* Adjust table width as needed */
+}
+
+.h1h{
+  text-align: center;
+  color: #2b8c87;
+}
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+.txt{
+   margin-left:80px; 
+
+  color: #2b8c87;
+}
+.content{
+  /* margin:80px; */
+  
+  color: #2b8c87;
+}
+
+.V{
+      
+  /* text-align: center; 
+  vertical-align: bottom;
+  
+  margin-top: 50px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.V{
+border-collapse: separate;
+border-spacing: 10px; /* Adjust spacing as needed */
+}
+
+.V td {
+padding: 10px; /* Adjust padding as needed */
+}
+.btn {
+margin-right:20px;
+transition: .4s all;
+}
+.btn-1:hover {
+background-color:#2b8c87 ;
+ transform:scale(1.2);
+}
+.rel{
+  text-align:center;
+  color: #2b8c87;
+}
+.pic {
+  display: flex;
+}
+
+.pic img {
+  flex: 1; 
+  margin: 25px; 
+  max-width: calc(100% / 4 - 50px); /* Divide container width by number of images and subtract margin */
+  height: auto;
+}
+.foot{
+  text-align: center;
+}

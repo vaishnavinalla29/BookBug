@@ -1,0 +1,38 @@
+@use "../coustom";
+
+
+.logo-size{
+  height: 40px;
+  margin: 0;
+  margin-left:15px;
+  padding: 0;
+}
+.search-input{
+  display: flex !important;
+  justify-content: center;
+  align-items: center !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.nav-togg{
+  font-size: 30px;
+}
+.navdisplay{
+  display: flex !important;
+  justify-content: flex-end !important;
+  align-items: end!important;
+}
+.getit{
+  height: 35px;
+  
+}
+
+.getitp{
+  padding: 0;
+  margin-left: 18px !important;
+  margin-right: 18px !important;
+}
+.popup:hover
+{
+  size: 1;
+}
